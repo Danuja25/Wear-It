@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>3 Col Portfolio - Start Bootstrap Template</title>
+
+
+        <meta name="description" content="Circle Hover Effects with CSS Transitions" />
+        <meta name="keywords" content="circle, border-radius, hover, css3, transition, image, thumbnail, effect, 3d" />
+        <meta name="author" content="Codrops" />
+        <link rel="shortcut icon" href="../favicon.ico"> 
+        <link rel="stylesheet" type="text/css" href="css-effect/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css-effect/common.css" />
+        <link rel="stylesheet" type="text/css" href="css-effect/style4.css" />
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,700' rel='stylesheet' type='text/css' />
+        <script type="text/javascript" src="js-effect/modernizr.custom.79639.js"></script> 
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/3-col-portfolio.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">For Men</a>
+                    </li>
+                    <li>
+                        <a href="#">For Women</a>
+                    </li>
+                     <li>
+                        <a href="#">My Profile</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+        <div class="row">
+  <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+
+
+
+
+
+
+
+
+
+
+<div class="support-note"><!-- let's check browser support with modernizr -->
+                    <!--span class="no-cssanimations">CSS animations are not supported in your browser</span-->
+                    <span class="no-csstransforms">CSS transforms are not supported in your browser</span>
+                    <!--span class="no-csstransforms3d">CSS 3D transforms are not supported in your browser</span-->
+                    <span class="no-csstransitions">CSS transitions are not supported in your browser</span>
+                    <span class="note-ie">Sorry, only modern browsers.</span>
+                </div>
+                
+            </header>
+            
+           <section class="main">
+            
+                <ul class="ch-grid">
+                    
+                    <li onClick="click1()">
+                        <div class="ch-item ch-img-1">              
+                            <div class="ch-info-wrap">
+                                <div class="ch-info">
+                                    <div class="ch-info-front ch-img-1"></div>
+                                    <div class="ch-info-back">
+
+                                        
+                                        <h3>Ratings</h3>
+                                        <p>by Likes </p>
+                                    </div>  
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li onClick="click2()">
+                        <div class="ch-item ch-img-2">
+                            <div class="ch-info-wrap">
+                                <div class="ch-info">
+                                    <div class="ch-info-front ch-img-2"></div>
+                                    <div class="ch-info-back">
+                                        <h3>Latest</h3>
+                                        <p>by updated date</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li onClick="click3()">
+                        <div class="ch-item ch-img-3">
+                            <div class="ch-info-wrap">
+                                <div class="ch-info">
+                                    <div class="ch-info-front ch-img-3"></div>
+                                    <div class="ch-info-back">
+                                        <h3>Recomended</h3>
+                                        <p>by our designers </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                
+            </section>
+            
+        </div>
+
+        </div>
+        <!-- Page Header -->
+        <div class="row">
+            <div class="col-lg-12">
+               
+            </div>
+        </div>
+        <!-- /.row -->
+
+
+           
+                
+                <iframe id="fram" name="frame" src="topRated.html" style="width:1200px;  height: 1500px;" ></iframe>
+            
+            
+           
+
+
+                
+            
+
+
+       
+
+
+
+
+      
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Rapticon 2016</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+<script type="text/javascript">
+function click1(){
+    document.getElementById('fram').src = 'latest.html';
+}
+function click2(){
+    document.getElementById('fram').src = 'topRated.html';
+}
+function click3(){
+    document.getElementById('fram').src = 'Recomonded.html';
+}
+
+</script>
+</body>
+
+</html>
